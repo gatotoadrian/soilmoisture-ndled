@@ -1,4 +1,4 @@
-# Arduino Soil Moisture Sensor with LED Indicator
+# ESP32S Soil Moisture Sensor with LED Indicator
 
 ## Description
 
@@ -13,7 +13,7 @@ This Arduino project creates a simple soil moisture monitoring system with visua
 
 ## Hardware Requirements
 
-- Arduino board (e.g., Arduino Uno)
+- ESP32S microcontroller
 - Soil moisture sensor (analog)
 - LED
 - 220-ohm resistor (for the LED)
@@ -48,13 +48,13 @@ You can adjust the `threshold` value in the code to change the moisture level at
 ```cpp
 const int threshold = 100; // Adjust this value based on your sensor and soil type
 
-##Troubleshooting
+## Troubleshooting
 
 If the LED doesn't light up when the soil is dry, check your wiring and ensure the threshold value is appropriate for your sensor and soil type.
 If you're getting inconsistent readings, make sure the sensor is making good contact with the soil and that there are no short circuits in your wiring.
 
-##Contributing
+## Contributing
 Contributions to improve the project are welcome. Please feel free to fork the repository and submit pull requests.
 
-##License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
