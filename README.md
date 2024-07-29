@@ -45,8 +45,7 @@ This Arduino project creates a simple soil moisture monitoring system with visua
 
 You can adjust the `threshold` value in the code to change the moisture level at which the LED turns on. Lower values indicate drier soil. Experiment with this value to find the right setting for your plants and sensor.
 
-```cpp
-const int threshold = 100; // Adjust this value based on your sensor and soil type
+
 
 **## Troubleshooting**
 
