@@ -48,7 +48,7 @@ You can adjust the `threshold` value in the code to change the moisture level at
 ```cpp
 const int threshold = 100; // Adjust this value based on your sensor and soil type
 
-## Troubleshooting
+**## Troubleshooting**
 
 If the LED doesn't light up when the soil is dry, check your wiring and ensure the threshold value is appropriate for your sensor and soil type.
 If you're getting inconsistent readings, make sure the sensor is making good contact with the soil and that there are no short circuits in your wiring.
